@@ -14,6 +14,8 @@
  * 处理完请求后，框架会选择并渲染对应的模板文件，以html页面的形式返回响应。
  * 在处理逻辑的时候，还要考虑到错误和异常的处理
  */
+require 'App/Commands/MysqlCommand.php';
+die;
 const ROOT = __DIR__.'/';
 require ROOT.'Dcore/Core/Core.php';
 $container = DI();

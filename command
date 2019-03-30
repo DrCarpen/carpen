@@ -2,6 +2,8 @@
 <?php
 namespace Command;
 
+require 'App/Commands/MysqlCommand.php';
+die;
 use Dcore\Command\Command;
 
 echo __detectRoot();
