@@ -15,6 +15,7 @@
  * 在处理逻辑的时候，还要考虑到错误和异常的处理
  */
 require 'App/Commands/MysqlCommand.php';
+//require 'App/Commands/test.php';
 die;
 const ROOT = __DIR__.'/';
 require ROOT.'Dcore/Core/Core.php';

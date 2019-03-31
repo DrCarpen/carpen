@@ -2,7 +2,8 @@
 <?php
 namespace Command;
 
-require 'App/Commands/MysqlCommand.php';
+//require 'App/Commands/MysqlCommand.php';
+require 'App/Commands/test.php';
 die;
 use Dcore\Command\Command;
 
