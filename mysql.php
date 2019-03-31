@@ -25,12 +25,15 @@ class MysqlDocs
      */
     private $table = 'users';  // 需生成的表名
     /**
-     * 数据库基础配置
+     * **********    数据库基础配置     **********
      */
     private $host = 'localhost';    // 数据库连接
     private $userName = 'root';     // 数据库账号
     private $dbPwd = 'root';        // 数据库密码
     private $database = 'test';     // 数据库名
+    /**
+     * *********     功能配置        ***********
+     */
     private $conn;
     private $noShowFields = [];     //不需要显示的字段
     private $columns = [];
@@ -85,6 +88,9 @@ class MysqlDocs
         $this->setCharset();
     }
 
+    /**
+     * 处理入参
+     */
     private function getArgvs()
     {
         $argvs = $_SERVER['argv'];
